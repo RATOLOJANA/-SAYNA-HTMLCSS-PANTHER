@@ -1,0 +1,206 @@
+@font-face{
+    font-family: "beyno";
+    src: url(../assets/fonts/beyno/BEYNO.otf);
+  }
+  @font-face{
+    font-family: "wakanda";
+    src: url(../assets/fonts/wakanda.ttf);
+}
+/* Design la partie header*/
+#partie-haut{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    display: flex;
+    margin-top: 40px;
+  }
+  /* Navigateur */
+  nav ul{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    text-align: left;
+  }
+  nav li{
+    margin-right: 15px;
+  }
+  nav a{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-bottom: 3px;
+  }
+  #partie-haut .home nav{
+    display: flex;
+    list-style-type: initial;
+    font-family: "beyno";
+    margin: 10px;
+  }
+  #partie-haut .nav li{
+    margin-right: 15px;
+  }
+  /* Design la partie haut wakanda*/
+  
+  #forever .titre-for{
+    justify-content: center;
+    font-family: "beyno";
+    margin: 40px;
+    font-size: 70px;
+  }
+  #forever .sous-titre{
+    justify-content: center;
+    font-family: "wakanda";
+    margin: 40px;
+    font-size: 30px;
+  }
+  #forever p{
+    justify-content: center;
+    text-align: left;
+  }
+  
+  /* Design la deuxieme section corps wakanda*/
+ #corps-text .titre{
+  font-family: "beyno";
+  font-size: 30px;
+ }
+ #cont-cinema .titre{
+  font-family: "beyno";
+  font-size: 30px;
+ }
+  
+  #corps-text .para{
+    background-color: #3D2DA6;
+    color: #FFFFFF;
+    justify-content: center;
+    font-size: 20px;
+    height: 200px;
+  }
+
+  .corps-wakanda{
+    display: flex;
+    justify-content: center;
+  }
+  #corps-wakanda .container{
+    justify-content: 20%;
+    padding: 0;
+    margin-left: 5%;
+    margin: center;
+    height: 0 2px;
+  }
+  #culte-wakanda .titre{
+    font-family: "beyno";
+    font-size: 30px;
+  }
+  .Origin{
+    justify-content: left;
+    padding: 10px;
+    margin-left: 20vw;
+    height: 0 2px;
+  }
+  #culte-wakanda .titre{
+    font-family: "beyno";
+    font-size: 30px;
+  }
+  #heros-guerre .titre{
+    font-family: "beyno";
+    font-size: 30px;
+
+  }
+  #heros-force .titre{
+    font-family: "beyno";
+    font-size: 30px;
+  }
+  #contdoct .titre{
+    font-family: "beyno";
+    font-size: 30px;
+  }
+
+
+
+
+
+footer {
+        display: flex;
+        justify-content: center;
+        padding-top: 20vh;
+        padding-bottom: 15vh;
+        background: url(../assets/Illustrations + Logos/All pages/back_footer.png);
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    
+    #bas-footer{
+        width: 20vw;
+    }
+    .logo-mrl{
+        width: 50%;
+        position: absolute;
+        top: 10vw;
+        left: 5vw;
+    }
+    .wakanadamarvel{
+        position: relative;
+        margin-right: 10vw;
+        width: 23.3vw;
+        height: 53vh;  
+    }
+    
+    footer div{
+        margin-right: 10vw;
+    }
+    
+    .media{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-media ul{
+        font-family: Cantarell regular;
+        display: flex;
+        text-align: left;
+    }
+    .footer-media ul li {
+        margin-right: 40px;
+    }
+    .social-foot h2,.media h2, .media{
+        font-family: Cantarell regular;
+    }
+
+
+
+
+
+
+
+
+
+  .text-corps{
+    justify-content: center;
+    font-size: 20px;
+    text-align: 60%;
+    margin-left: 20%;
+  }
+  .text-corps .trans{
+    justify-content: center;
+    text-align: right;
+    position: absolute;
+  }
+  /* Design de la deuxieme partie Corps enigme*/
+  .corps-a{
+    display: flex;
+    justify-content: center;
+  }
+  .corps-a .slide-enigme{
+    justify-content: center;
+    font-family: "wakanda";
+    font-size: 20px;
+  }
+  .corps-a .slide-enigme h2{
+    font-family: cantarell;
+    font-size: 20px;
+  }
+  .corps-a .text-enigme{
+    justify-content: center;
+    height: 80px;
+    margin: 40px;
+    width: 60%;
+  
+  }

@@ -1,0 +1,159 @@
+@font-face{
+    font-family: "beyno";
+    src: url(../assets/fonts/beyno/BEYNO.otf);
+  }
+  @font-face{
+      font-family: "wakanda";
+      src: url(../assets/fonts/wakanda.ttf);
+  }
+  @font-face{
+    font-family: "Cantarell";
+    src: url(../assets/fonts/Cantarell-Bold.ttf);
+  }
+  /* Design la partie header*/
+  body{
+    background-image: url(../assets/Illustrations + Logo/All pages/arriere plan/arrière_plan);
+    width: 100% 100%;
+  }
+  #haut{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    display: flex;
+    margin-top: 40px;
+  }
+  /* Navigateur */
+  nav ul{
+    list-style-type: none;
+    color: white;
+    display: flex;
+  }
+  nav li{
+    margin-right: 15px;
+  }
+  nav a{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-bottom: 3px;
+  }
+  #haut .lien nav{
+    display: flex;
+    list-style-type: initial;
+    font-family: "beyno";
+  }
+  #haut .nav li{
+    margin-right: 15px;
+  }
+  /* Design la partie haut enigme*/
+  #enigme{
+    display: flex;
+    justify-content: center;
+  }
+  .photo-enigme{
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    width: 0 auto
+  }
+  .text-corps .titre{
+    font-family: "beyno";
+    font-size: 60px;
+  }
+  .text-corps{
+    justify-content: center;
+    font-size: 20px;
+    text-align: 60%;
+    margin-left: 20%;
+  }
+  .text-corps .trans{
+    justify-content: center;
+    text-align: right;
+    position: absolute;
+  }
+  /* Design de la deuxieme partie Corps enigme*/
+  .corps-a{
+    display: flex;
+    justify-content: center;
+  }
+  .corps-a .slide-enigme{
+    justify-content: center;
+    font-family: "wakanda";
+    font-size: 20px;
+  }
+  .corps-a .slide-enigme h2{
+    font-family: cantarell;
+    font-size: 20px;
+  }
+  .corps-a .text-enigme{
+    justify-content: center;
+    height: 80px;
+    margin: 40px;
+    width: 60%;
+  
+  }
+/* Design formulaire enigme*/
+#Infoline .form{
+  justify-content: center;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 32px;
+  border-radius: 40px / 20px;
+}
+#Infoline .action{
+  border: 1px solid #021748;
+  background: none;
+  border-radius: 30px;
+  width: 40vw;
+  height: auto;
+}
+
+/* Design footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20vh;
+  padding-bottom: 15vh;
+  background: url(../illustration/All_pages/back_footer.png);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#bas-footer{
+  width: 20vw;
+}
+.logo-mrl{
+  width: 50%;
+  position: absolute;
+  top: 10vw;
+  left: 5vw;
+}
+
+.wakanadamarvel{
+  position: relative;
+  margin-right: 10vw;
+  width: 23.3vw;
+  height: 53vh;  
+}
+
+
+footer div{
+  margin-right: 10vw;
+}
+
+.media{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-media ul{
+  font-family: Cantarell regular;
+  display: flex;
+  text-align: left;
+}
+
+.footer-media ul li {
+  margin-right: 40px;
+}
+.social-footer h2,.media h2, .media{
+  font-family: Cantarell regular;
+}
