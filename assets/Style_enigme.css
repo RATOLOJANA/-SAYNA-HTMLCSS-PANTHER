@@ -4,7 +4,7 @@
   }
   @font-face{
       font-family: "wakanda";
-      src: url(../assets/fonts/wakanda.ttf);
+      src: url(../fonts/wakanda.ttf);
   }
   @font-face{
     font-family: "Cantarell";
@@ -12,7 +12,7 @@
   }
   /* Design la partie header*/
   body{
-    background-image: url(../assets/Illustrations + Logo/All pages/arriere plan/arrière_plan);
+    background-image: url(../assets/arrierPlan/arrière_plan.png);
     width: 100% 100%;
   }
   #haut{
@@ -49,15 +49,33 @@
     display: flex;
     justify-content: center;
   }
+  #enigme .text-corps{
+    justify-content: left;
+    margin : left;
+    text-align: left;
+    padding: 50vh;
+  }
+  #enigme .trans{
+    justify-content: left;
+    height: 30%;
+    padding: 10vh;
+  }
+  #enigme .text-corps p{
+    height: 15%;
+    position: absolute;
+    padding: 25vh;
+  }
   .photo-enigme{
     display: flex;
     justify-content: center;
-    margin-top: 3px;
-    width: 0 auto
+    position: absolute;
+    height: 1400px;
+    width: 70%;
   }
   .text-corps .titre{
     font-family: "beyno";
     font-size: 60px;
+    color: #F2CEF2;
   }
   .text-corps{
     justify-content: center;
@@ -74,37 +92,80 @@
   .corps-a{
     display: flex;
     justify-content: center;
+    
   }
   .corps-a .slide-enigme{
     justify-content: center;
     font-family: "wakanda";
+    width: 100%;
+    padding: 40px;
+    height: 80%;
     font-size: 20px;
+    text-align: 25px
   }
   .corps-a .slide-enigme h2{
     font-family: cantarell;
     font-size: 20px;
   }
-  .corps-a .text-enigme{
+  .corps-a .slide-enigme p{
     justify-content: center;
-    height: 80px;
-    margin: 40px;
-    width: 60%;
-  
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    font-size: 20px;
+    margin: 0 auto;
   }
+  .corps-a .text-enigme{
+    justify-content: left;
+    width: 40vw;
+   
+  }
+  .corps-a .text-enigme .transcrit{
+    justify-content: center;
+    margin-right: 6%;
+    width: 60vw;
+    height: 30%;
+    text-align: right 30%;
+  }
+  .corps-a .text-enigme .eng {
+    justify-content: justify;
+    width: 60vh;
+    text-align: center;
+    margin-left: 100px;
+    margin-top:-2%;
+    
+  }
+
 /* Design formulaire enigme*/
-#Infoline .form{
+#Infoline .form {
   justify-content: center;
-  text-align: center;
+  padding: 10vh;
+  height: 30%;
   font-size: 32px;
   margin-bottom: 32px;
-  border-radius: 40px / 20px;
+  border-radius: 20px;
 }
-#Infoline .action{
-  border: 1px solid #021748;
-  background: none;
+#Infoline h1{
+  justify-content: center;
+  size: 20px;
+}
+#Infoline .action textarea{
+  justify-content: center;
+  text-align: 20%;
+  border: 1px solid #DF99F2;
   border-radius: 30px;
   width: 40vw;
-  height: auto;
+  height: 5vh;
+}
+#Infoline .action input{
+  justify-content: center;
+  margin-left: 25px;
+  text-decoration: #021740;
+  border: 1px solid #021748;
+  background-color: #9E91B7;
+  border-radius: 30px;
+  width: 10vw;
+  height: 5vh;
 }
 
 /* Design footer */
@@ -113,7 +174,7 @@ footer {
   justify-content: center;
   padding-top: 20vh;
   padding-bottom: 15vh;
-  background: url(../illustration/All_pages/back_footer.png);
+  background: url(../assets/arrierPlan/back_footer.png);
   background-size: 100% 100%;
   background-position: center;
 }

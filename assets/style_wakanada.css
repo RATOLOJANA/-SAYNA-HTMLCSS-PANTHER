@@ -6,6 +6,10 @@
     font-family: "wakanda";
     src: url(../assets/fonts/wakanda.ttf);
 }
+body{
+  background-image: url(../assets/arrierPlan/arrière_plan.png);
+  width: 100% 100%;
+}
 /* Design la partie header*/
 #partie-haut{
     display: flex;
@@ -39,22 +43,38 @@
     margin-right: 15px;
   }
   /* Design la partie haut wakanda*/
-  
-  #forever .titre-for{
+  #forever .content-forever{
+    position: relative;
+    width: 40%;
+    padding right: 30%;
+  }
+  #forever .accueil-wak{
     justify-content: center;
+    position: absolute;
+    width: 60%;
+    padding: 50%;
+    margin-right: 0 auto;
+    height: 30%;
+
+  }
+  #forever .titre-for{
+    font-size: 40px;
     font-family: "beyno";
-    margin: 40px;
-    font-size: 70px;
   }
   #forever .sous-titre{
-    justify-content: center;
-    font-family: "wakanda";
-    margin: 40px;
     font-size: 30px;
+    font-family: "wakanda";
   }
-  #forever p{
-    justify-content: center;
-    text-align: left;
+  #forever .photo-wakanda{
+    position: absolute;
+    align-items: left;
+    margin-left: 20%;
+    padding: 2px;
+    width: 10%;
+  }
+  #forever .photo-wakand{
+    margin-left: 20%;
+    height: 56vw;
   }
   
   /* Design la deuxieme section corps wakanda*/
@@ -78,6 +98,7 @@
   .corps-wakanda{
     display: flex;
     justify-content: center;
+    
   }
   #corps-wakanda .container{
     justify-content: 20%;
@@ -113,65 +134,7 @@
     font-family: "beyno";
     font-size: 30px;
   }
-
-
-
-
-
-footer {
-        display: flex;
-        justify-content: center;
-        padding-top: 20vh;
-        padding-bottom: 15vh;
-        background: url(../assets/Illustrations + Logos/All pages/back_footer.png);
-        background-size: 100% 100%;
-        background-position: center;
-    }
-    
-    #bas-footer{
-        width: 20vw;
-    }
-    .logo-mrl{
-        width: 50%;
-        position: absolute;
-        top: 10vw;
-        left: 5vw;
-    }
-    .wakanadamarvel{
-        position: relative;
-        margin-right: 10vw;
-        width: 23.3vw;
-        height: 53vh;  
-    }
-    
-    footer div{
-        margin-right: 10vw;
-    }
-    
-    .media{
-        display: flex;
-        justify-content: center;
-    }
-    .footer-media ul{
-        font-family: Cantarell regular;
-        display: flex;
-        text-align: left;
-    }
-    .footer-media ul li {
-        margin-right: 40px;
-    }
-    .social-foot h2,.media h2, .media{
-        font-family: Cantarell regular;
-    }
-
-
-
-
-
-
-
-
-
+  
   .text-corps{
     justify-content: center;
     font-size: 20px;
@@ -204,3 +167,54 @@ footer {
     width: 60%;
   
   }
+  /* Design la partie footer*/
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+    position: absolute;
+    background: url(../assets/arrierPlan/back_footer.png);
+    background-size: 100% 100%;
+    background-position: center;
+      }
+      
+  #bas-footer{
+    width: 20vw;
+      }
+  .logo-mrl{
+    width: 50%;
+    position: absolute;
+    top: 10vw;
+    left: 5vw;
+      }
+    .wakanadamarvel{
+    position: relative;
+    margin-right: 10vw;
+    width: 23.3vw;
+    height: 53vh;  
+      }
+      
+  footer div{
+      margin-right: 10vw;
+      }
+      
+  .media{
+      display: flex;
+      justify-content: center;
+      }
+  .footer-media ul{
+      font-family: Cantarell regular;
+      display: flex;
+      text-align: left;
+      }
+  .footer-media ul li {
+      margin-right: 40px;
+      }
+  .social-foot h2,.media h2, .media{
+      font-family: Cantarell regular;
+      }
+  
+  
+  
